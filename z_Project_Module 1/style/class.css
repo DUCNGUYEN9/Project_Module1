@@ -1,0 +1,54 @@
+form label::after {
+  content: "(*)";
+  color: red;
+}
+
+.comment::after {
+  content: "";
+}
+/* màu phân trang */
+.page-item.active .page-link {
+  background-color: green;
+}
+#classIdFeedBack,
+#classNameFeedBack,
+#teacherFeedBack,
+#statusFeedBack,
+#numbersFeedBack,
+#courseIdFeedBack {
+  color: red;
+  font-size: 12px;
+  position: relative;
+  top: -16px;
+  left: 120px;
+  height: 5px !important;
+}
+#noClassContent {
+  display: none;
+}
+/* chua them item */
+main img {
+  width: 400px;
+  height: 400px;
+}
+
+main .btnAdd {
+  margin-right: 120px;
+}
+main .text {
+  width: 248px;
+  height: 42px;
+  line-height: 42px;
+  margin-left: 130px;
+}
+main .text span:nth-child(2),
+main .text span:nth-child(3) {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .text_color {
+  color: #7749f8;
+  font-size: 16px;
+  font-weight: 500;
+}

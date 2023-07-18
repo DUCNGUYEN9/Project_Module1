@@ -1,0 +1,46 @@
+form label::after {
+  content: "(*)";
+  color: red;
+}
+#form-radio label::after {
+  content: "";
+}
+/* chua them item */
+main img {
+  width: 500px;
+  height: 400px;
+}
+#noCourseContent {
+  display: none;
+}
+main .btnAdd {
+  margin-right: 120px;
+}
+main .text {
+  width: 248px;
+  height: 42px;
+  line-height: 42px;
+  margin-left: 130px;
+}
+main .text span:nth-child(2),
+main .text span:nth-child(3) {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .text_color {
+  color: #7749f8;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#courseIdFeedBack,
+#courseNameFeedBack,
+#courseHourFeedBack {
+  color: red;
+  font-size: 12px;
+  position: relative;
+  top: -16px;
+  left: 120px;
+  height: 5px !important;
+}
